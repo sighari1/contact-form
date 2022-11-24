@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #9b59b6;
+}
+
+.main {
+  width: 800px;
+  margin: 100px auto;
+}
+
+.form-area {
+  display: flex;
+  background: #34495e;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.msg-area {
+  display: flex;
+  flex-direction: column;
+  order: 2;
+}
+.msg-area > textarea {
+  flex: 1;
+  width: 280px;
+  padding: 15px;
+}
+.details {
+  flex: 1;
+  order: 1;
+  margin-right: 32px;
+}
+.details > input {
+  width: 100%;
+  border-radius: 20px;
+}
+.details input,
+.details button {
+  padding: 10px;
+  margin: 7px;
+}
+.details > button{
+    background: #c0392b;
+    border: 0;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-family:'Times New Roman' ;
+    font-size: 15px;
+    
+}
